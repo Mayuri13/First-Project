@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayuri dance club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        header {
+
+            background-color: #d2cfd1;
+            margin: -16px;
+            height: 60px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(bg.jpg);
+            background-size: cover;
+            font-family: 'Bree Serif', serif;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 13px;
+            left: 13px;
+        }
+
+        .left img {
+            width: 75px;
+            margin: -8px 42px;
+            margin-left: -3px;
+        }
+
+        .left div {
+            color: ivory;
+            text-align: center;
+            font-size: 16px;
+            line-height: 5px;
+            margin: -25px 63px;
+        }
+
+        .button {
+            font-family: 'Bree Serif', serif;
+            background-color: #453af1;
+            border-radius: 3px;
+            border: 2px solid #453af1;
+            color: ivory;
+        }
+
+        .center {
+
+            display: block;
+            width: 50%;
+            margin: 13px auto;
+
+        }
+
+        .right {
+
+            display: inline-block;
+            position: absolute;
+            top: 13px;
+            right: 13px;
+            color: rosybrown;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+            margin-top: 17px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #6912cc;
+            padding: 30px 23px;
+            margin-top: 30px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: none;
+            color: #e743e7;
+            padding: 20px 23px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            padding: 4px 16px;
+            border: 2px solid #2aeac7;
+            background-color: #30e4e4;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Bree Serif', serif;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #1987a8;
+            border: #e1f7f7;
+            color: rgb(216, 213, 236);
+        }
+
+        .container {
+            border-radius: 23px;
+            border: 2px solid #454a45;
+            
+            padding: 24px 87px;
+            margin: 30px 6px;
+            width: 27%;
+        }
+
+        .container:hover {
+            border-radius: 23px;
+            border: 2px solid #454a45;
+            background-color: #454a45;
+            padding: 24px 87px;
+            margin: 30px 6px;
+            width: 27%;
+        }
+
+        .form-group input {
+            font-family: 'Bree Serif', serif;
+            text-align: center;
+            display: block;
+            width: 208px;
+            padding: 0px 25px;
+            margin: 10px auto;
+            border-radius: 10px;
+            font-size: 20px;
+            border: 2px solid #dcd0d0;
+        }
+
+
+        .container h1 {
+            text-align: center;
+            margin: 0px;
+        }
+
+        .container button {
+            display: block;
+            margin: auto;
+            background-color: rgb(39, 32, 32);
+            color: honeydew;
+            border: 2px solid rgb(39, 32, 32);
+            width: 261px
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left class for logo -->
+        <div class="left">
+            <img src="dance_logo.png">
+            <div>
+                <button class="button">Mayuri Dance Club</button>
+            </div>
+        </div>
+        <!-- mid class for nav bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Dance Categories</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right class for buttons -->
+        <div class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Dance Club</h1>
+        <form action="Noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Dance form">
+            </div>
+
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
